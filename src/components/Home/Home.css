@@ -1,0 +1,40 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC);
+}
+
+.button-div {
+    margin-top: 2rem;
+}
+
+.buttons {
+    width: 10rem;
+    padding: .5rem;
+    margin: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.buttons:hover {
+    background-color: rgba(17, 0, 255, 0.747);
+}
+
+.buttons:active {
+    transform: scale(.97);
+}
+
+.table-container {
+    width: 50%;
+    border-radius: 20px;
+}
